@@ -2,7 +2,7 @@ from enum import Enum, unique
 
 
 @unique
-class FilterComparison(Enum):
+class DataFilterComparison(Enum):
     Equals = "="
     NotEquals = "!="
     GreaterThan = ">"

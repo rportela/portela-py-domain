@@ -7,3 +7,7 @@ class DataFilterNode:
     filter: Any
     operation: Optional[DataFilterOperation] = None
     next: Optional["DataFilterNode"] = None
+
+
+class DataFilterExpression:
+    first: DataFilterNode
